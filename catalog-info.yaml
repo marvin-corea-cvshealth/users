@@ -9,3 +9,4 @@ spec:
   targets:
     - ./mark-dutra-catalog-info.yaml
     - ./marvin-corea-catalog-info.yaml
+    - ./jaya-kumar-catalog-info.yaml
