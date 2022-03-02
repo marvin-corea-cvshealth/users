@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: mcorea
+spec:
+  profile:
+    displayName: Marvin C
+    email: marvin.corea@cvshealth.com
+    picture: https://static.wikia.nocookie.net/villains/images/e/ee/Marvin_the_Martian.jpg
+  memberOf: [devsecops]
