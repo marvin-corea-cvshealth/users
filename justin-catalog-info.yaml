@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: jmconelogin
+  title: Justin M
+spec:
+  profile:
+    displayName: Justin M
+    email: Justin.McCarthy@CVSHealth.com
+    picture: https://www.iconsdb.com/icons/preview/black/rabbit-2-xxl.png
+  memberOf: [devsecops]
