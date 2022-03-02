@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: mark-dutra
+spec:
+  profile:
+    displayName: Mark D
+    email: mark.dutra@cvshealth.com
+    picture: https://www.iconsdb.com/icons/preview/black/rabbit-2-xxl.png
+  memberOf: [devsecops]
