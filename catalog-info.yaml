@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   name: users
+  title: List of TAP GUI users
   description: List of user catalog-info yamls
   annotations:
     'backstage.io/techdocs-ref': dir:.
@@ -10,5 +11,4 @@ spec:
     - ./mark-dutra-catalog-info.yaml
     - ./marvin-corea-catalog-info.yaml
     - ./jaya-kumar-catalog-info.yaml
-  lifecycle: experimental
-  owner: devsecops
+    - ./justin-catalog-info.yaml
