@@ -1,10 +1,11 @@
 apiVersion: backstage.io/v1alpha1
-kind: User
+kind: Location
 metadata:
-  name: marvin-corea-cvshealth
+  name: users
+  description: List of user catalog-info yamls
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
 spec:
-  profile:
-    displayName: Marvin C
-    email: marvin.corea@cvshealth.com
-    picture: https://static.wikia.nocookie.net/villains/images/e/ee/Marvin_the_Martian.jpg
-  memberOf: [devsecops]
+  targets:
+    - mark-dutra-catalog-info.yaml
+    - marvin-corea-catalog-info.yaml
